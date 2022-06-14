@@ -1,0 +1,21 @@
+.footer {
+  height: 12vh;
+  background-color: rgb(255, 248, 248);
+  display: flex;
+  justify-content: center;
+}
+.navIcon {
+  height: 70px;
+  margin-top: -1rem;
+  display: block;
+  width: auto;
+}
+.navIcon:hover {
+  cursor: pointer;
+}
+
+@media screen and (min-width: 334px) {
+  .navIcon {
+    height: 50px;
+  }
+}

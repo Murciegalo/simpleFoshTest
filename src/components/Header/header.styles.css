@@ -1,0 +1,28 @@
+.header {
+  position: relative;
+  width: 100%;
+}
+.wrap {
+  position: absolute;
+  background-color: #000;
+  border-left: 1px solid rgb(120, 118, 118);
+  width: 100%;
+}
+.logo {
+  height: 70px;
+  margin: 20px;
+  display: block;
+  width: auto;
+}
+
+@media screen and (max-width: 470px) {
+  .logo {
+    height: 50px;
+  }
+}
+
+@media screen and (max-width: 334px) {
+  .logo {
+    height: 50px;
+  }
+}

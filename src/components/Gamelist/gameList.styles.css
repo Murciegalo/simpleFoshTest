@@ -1,0 +1,54 @@
+.main {
+  background-color: rgb(230, 230, 230) !important;
+  height: 88vh;
+  width: 100%;
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  margin-bottom: 0;
+}
+.title {
+  margin: 0;
+  text-align: center;
+  padding-top: 8.2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.wrapper {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+@media screen and (max-width: 650px) {
+  .title {
+    font-size: 25px;
+    padding-top: 7.2rem;
+  }
+  .wrapper {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: none;
+    margin-bottom: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .title {
+    font-size: 25px;
+    padding-top: 6.2rem;
+  }
+  .wrapper {
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 334px) {
+  .title {
+    font-size: 25px;
+    padding-top: 6.2rem;
+  }
+  .wrapper {
+    grid-template-columns: repeat(1, 1fr);
+    margin-bottom: 1.5rem;
+  }
+}
